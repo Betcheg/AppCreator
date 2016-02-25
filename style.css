@@ -1,0 +1,92 @@
+body {
+margin: 10;
+width: 100%;
+height: 100%;
+}
+
+#menu {
+width: 48%;
+position: absolute;
+/*border: 1px solid red;*/
+top: 10px;
+bottom: 10px;
+}
+
+#right {
+width: 48%;
+right: 0;
+position: absolute;
+top: 10px;
+bottom: 10px;
+border-left: 2px solid grey;
+}
+
+#rightpart{
+height: 100%;
+margin-right: 10px;
+margin-left: 10px;
+text-align: center;
+}
+
+#titre {
+font-size: 48px;
+color: grey;
+font-weight: bold;
+}
+
+#phonecase {
+height: 735px;
+width: 387px;
+background-image:url("phone.png");
+position: relative;
+margin-top: calc(50% - 367px);
+}
+
+#simulator {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    width: 321px;
+    bottom: 125px;
+    margin-top: calc(50% - 100px);
+}
+
+#info_theme{
+margin-top: 10px;
+}
+
+#fullscreen{
+    height: 100%;
+    width: 100%;
+  background-image: url("blank.png"); 
+    overflow: hidden;
+}
+
+/***** Betcheg theme *****/
+/* Put this in an other file */
+#betcheg_title{
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    font-size: 32px;
+    color: white;
+    /* color shadow : black 1px; */
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+
+#betcheg_menu_container {
+    width: 100%;
+    height: 50px;
+    background-color: lightgrey;
+    border-bottom: 1px solid grey;
+    line-height: 50px;
+}
+
+#betcheg_block_container {
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 10px;
+height: 100%;
+color: white;
+}
